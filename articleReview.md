@@ -5,23 +5,25 @@ This file contains the summary of academic papers in cybersecurity domain.
 キーワードを"Twitter Account"としてIEEExplorerを検索した結果を中心に調査
 
 
+## doi: 10.1109/UBMK.2017.8093483
+
+
 M. Kantepe and M. C. Ganiz, "Preprocessing framework for Twitter bot detection," 2017 International Conference on Computer Science and Engineering (UBMK), Antalya, 2017, pp. 630-634.
-doi: 10.1109/UBMK.2017.8093483
 
 TwitterのSybilアカウントの特定を、教師あり機械学習問題として解いている。その際のラベル情報は、停止されたTwitterアカウントをbotアカウントとみなすことで付与されている。
 
 
+## doi: 10.1109/TDSC.2012.75
 
 Z. Chu, S. Gianvecchio, H. Wang and S. Jajodia, "Detecting Automation of Twitter Accounts: Are You a Human, Bot, or Cyborg?," in IEEE Transactions on Dependable and Secure Computing, vol. 9, no. 6, pp. 811-824, Nov.-Dec. 2012.
-doi: 10.1109/TDSC.2012.75
 
 アカウントを、Human, Bot, Cyborgの3種類に分類する。Cyborgとは、Botを適宜使うHumanのことを指している。分類するために、投稿間隔から自動化されているか否かを検知し、Tweetのコンテンツのテキストパターンがspamに類似しているかを検査し、account propertyが通常の人間のアカウントと異なっていないかを検査する。そのうえで最終判定を下す。
 
 
 
+## doi: 10.1109/BigData.2016.7840895
 
 D. Xie, J. Xu and T. Lu, "Automated classification of extremist Twitter accounts using content-based and network-based features," 2016 IEEE International Conference on Big Data (Big Data), Washington, DC, 2016, pp. 2545-2549.
-doi: 10.1109/BigData.2016.7840895
 
 ISISのアカウントを特定することをmotivationとして実施されている研究。手法は深く読まないと不明だが、コンテンツ及びネットワーク情報から特徴を抽出し、ISISプロパガンダアカウントを特定しているとのこと。地理的情報を用いている気配があるが、詳細はよく読まないと不明。
 
