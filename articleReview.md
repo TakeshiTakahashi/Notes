@@ -10,7 +10,16 @@ This file contains the summary of academic papers in cybersecurity domain.
 
 M. Kantepe and M. C. Ganiz, "Preprocessing framework for Twitter bot detection," 2017 International Conference on Computer Science and Engineering (UBMK), Antalya, 2017, pp. 630-634.
 
-TwitterのSybilアカウントの特定を、教師あり機械学習問題として解いている。その際のラベル情報は、停止されたTwitterアカウントをbotアカウントとみなすことで付与されている。
+TwitterのSybilアカウントの特定を、教師あり機械学習問題として解いている。特徴量は、投稿されたツイート、プロファイル情報、そして時間軸の挙動情報から生成しているとのこと。その際のラベル情報は、停止されたTwitterアカウントをbotアカウントとみなすことで付与されている。
+
+
+## doi: 10.1145/2818717
+
+Emilio Ferrara, Onur Varol, Clayton Davis, Filippo Menczer, and Alessandro Flammini. 2016. The rise of social bots. Commun. ACM 59, 7 (June 2016), 96-104.
+
+Botというものは1950年代にChatbotが議論されていたころから存在しており、現在ではsocial mediaにも存在している。その特定手法についてのtaxonomyなども記載されているが、詳細はよく読まないと分からない。基本的には読み物で、具体的な技術を詳しく書いたものではないように感じる。
+
+
 
 
 ## doi: 10.1109/TDSC.2012.75
@@ -18,6 +27,16 @@ TwitterのSybilアカウントの特定を、教師あり機械学習問題と�
 Z. Chu, S. Gianvecchio, H. Wang and S. Jajodia, "Detecting Automation of Twitter Accounts: Are You a Human, Bot, or Cyborg?," in IEEE Transactions on Dependable and Secure Computing, vol. 9, no. 6, pp. 811-824, Nov.-Dec. 2012.
 
 アカウントを、Human, Bot, Cyborgの3種類に分類する。Cyborgとは、Botを適宜使うHumanのことを指している。分類するために、投稿間隔から自動化されているか否かを検知し、Tweetのコンテンツのテキストパターンがspamに類似しているかを検査し、account propertyが通常の人間のアカウントと異なっていないかを検査する。そのうえで最終判定を下す。
+
+
+
+## doi: 10.1109/MC.2016.183
+
+V. S. Subrahmanian et al., "The DARPA Twitter Bot Challenge," in Computer, vol. 49, no. 6, pp. 38-46, June 2016.
+
+TwitterやFacebookにおける影響力の高いボットを特定する必要性を記載している模様。
+本記事は、DARPAが2015年に開催した影響力の高いTwitterボットを特定するcompetitionについて、記載している。詳細は後日読む。
+
 
 
 
@@ -44,15 +63,14 @@ M. Alsaleh, A. Alarifi, A. M. Al-Salman, M. Alfayez and A. Almuhaysin, "TSD: Det
 従来の検知手法は、Sybil Accountはlegitimateなaccountとのつながりが持てないということを前提にしていたが、その前提が崩れてきているため、Sybil accountの分析を実施し、corpusを作成したとのこと。また、brower pluginを作成し、ユーザにSybil accountについて警告を出せるようにしたとのこと。我々の研究に関連しそうなので、是非読むべき。
 
 
-## doi: 10.1109/ACCESS.2017.2762418
+## doi: 10.1109/ICDM.2016.0096
 
-C. Yin, Y. Zhu, J. Fei and X. He, "A Deep Learning Approach for Intrusion Detection Using Recurrent Neural Networks," in IEEE Access, vol. 5, pp. 21954-21961, 2017.
+N. Chavoshi, H. Hamooni and A. Mueen, "DeBot: Twitter Bot Detection via Warped Correlation," 2016 IEEE 16th International Conference on Data Mining (ICDM), Barcelona, 2016, pp. 817-822.
 
-とある文献によると、下記のように紹介されている。
 
-侵入検知について、RNNを使う方式を提案し、評価している。
-最初anomalousかlegitimateを2値分類し、その後、5つのタイプに分類している。
-
+長期にわたりほぼ同期して動作するアカウントはボットであるとの前提のした、ボットを特定する技術を提案。
+教師なし学習を用いているところ、および単体のユーザではなくユーザ間の関係を見ているところを新規指定として主張している。
+94%の検知率を誇り、Twitterがアカウントを停止するより前にアカウントを特定することに成功しているとのこと。
 
 
 
@@ -62,6 +80,16 @@ C. Yin, Y. Zhu, J. Fei and X. He, "A Deep Learning Approach for Intrusion Detect
 
 
 # Twitter関連以外の論文
+
+
+## doi: 10.1109/ACCESS.2017.2762418
+
+C. Yin, Y. Zhu, J. Fei and X. He, "A Deep Learning Approach for Intrusion Detection Using Recurrent Neural Networks," in IEEE Access, vol. 5, pp. 21954-21961, 2017.
+
+とある文献によると、下記のように紹介されている。
+
+侵入検知について、RNNを使う方式を提案し、評価している。
+最初anomalousかlegitimateを2値分類し、その後、5つのタイプに分類している。
 
 
 ## 2017_SMARTCOMP_Yuan
