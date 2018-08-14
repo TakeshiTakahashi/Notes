@@ -29,31 +29,24 @@ ISISのアカウントを特定することをmotivationとして実施されて
 
 
 
+## doi: 10.1109/INM.2015.7140327
 
-
-
-
-
-## 2015_IM_Bara
-
-Ioana-Alexandra Bara, et al., "Enhancing Twitter spam accounts discovery using cross-account pattern mining"
-2015 IFIP/IEEE International Symposium on Integrated Network Management (IM)
+I. Bara, C. J. Fung and T. Dinh, "Enhancing Twitter spam accounts discovery using cross-account pattern mining," 2015 IFIP/IEEE International Symposium on Integrated Network Management (IM), Ottawa, ON, 2015, pp. 491-496.
 
 Twitterのspamアカウント検知手法に関する研究。まだアブストのみしか見ていないが、従来のように積極的にアクティビティを実施するspamではなく、検知を回避するために消極的にしか活動しないspam accountを検知する手法について検討しているとのこと。我々の研究に関連しそうなので、是非読むべき。
 
-## 2014_ICMLA_Alsaleh
 
-Mansour Alsaleh, et al., "TSD: Detecting Sybil Accounts in Twitter"
-2014 13th International Conference on Machine Learning and Applications
+
+## doi: 10.1109/ICMLA.2014.81
+
+M. Alsaleh, A. Alarifi, A. M. Al-Salman, M. Alfayez and A. Almuhaysin, "TSD: Detecting Sybil Accounts in Twitter," 2014 13th International Conference on Machine Learning and Applications, Detroit, MI, 2014, pp. 463-469.
 
 従来の検知手法は、Sybil Accountはlegitimateなaccountとのつながりが持てないということを前提にしていたが、その前提が崩れてきているため、Sybil accountの分析を実施し、corpusを作成したとのこと。また、brower pluginを作成し、ユーザにSybil accountについて警告を出せるようにしたとのこと。我々の研究に関連しそうなので、是非読むべき。
 
 
-# 2017_IEEE_Access_Yin
+## doi: 10.1109/ACCESS.2017.2762418
 
-C. Yin, Y. Zhu, J. Fei and X. He
-"A Deep Learning Approach for Intrusion Detection Using Recurrent Neural Networks,"
-doi: 10.1109/ACCESS.2017.2762418
+C. Yin, Y. Zhu, J. Fei and X. He, "A Deep Learning Approach for Intrusion Detection Using Recurrent Neural Networks," in IEEE Access, vol. 5, pp. 21954-21961, 2017.
 
 とある文献によると、下記のように紹介されている。
 
@@ -61,7 +54,17 @@ doi: 10.1109/ACCESS.2017.2762418
 最初anomalousかlegitimateを2値分類し、その後、5つのタイプに分類している。
 
 
-# 2017_SMARTCOMP_Yuan
+
+
+
+
+
+
+
+# Twitter関連以外の論文
+
+
+## 2017_SMARTCOMP_Yuan
 
 X. Yuan, C. Li and X. Li, "DeepDefense: Identifying DDoS Attack via Deep Learning," 2017 IEEE International Conference on Smart Computing (SMARTCOMP), Hong Kong, 2017, pp. 1-8.
 doi: 10.1109/SMARTCOMP.2017.7946998
@@ -71,7 +74,7 @@ doi: 10.1109/SMARTCOMP.2017.7946998
 bidirectional RNNを活用したDDoS検知を提案している。
 DeepDefenseという名前のモデルを提唱し、RNNを使った手法とrandom forest、およびLSTMと比較評価を実施し、RNNを利用するのが最も良いとしている。
 
-# 2013_コンピュータソフトウェア_藤井
+## 2013_コンピュータソフトウェア_藤井
 
 「ビッグデータ時代における情報の巨大集積化・並列分散処理に関する研究開発動向」
 本論文はサーベイ論文である。
