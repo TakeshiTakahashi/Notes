@@ -1,5 +1,48 @@
 This file contains the summary of academic papers in cybersecurity domain.
 
+# Usenix_2014_Viswanath
+
+Towards Detecting Anomalous User Behavior in Online Social Networks
+Authors: 
+Bimal Viswanath and M. Ahmad Bashir, Max Planck Institute for Software Systems (MPI-SWS); Mark Crovella, Boston University; Saikat Guha, Microsoft Research; Krishna P. Gummadi, Max Planck Institute for Software Systems (MPI-SWS); Balachander Krishnamurthy, AT&T Labs–Research; Alan Mislove, Northeastern University
+
+TwitterというよりはFacebookを対象とし、異常な挙動を検知する。結果的に怪しいアカウントを特定する方式である。PCAを利用することで、その異常な挙動を特定することを試みている。詳細は読む必要有。牛込君のレポートに詳しい記載有。
+
+
+
+## doi: 10.1109/ACCESS.2017.2762418
+
+C. Yin, Y. Zhu, J. Fei and X. He, "A Deep Learning Approach for Intrusion Detection Using Recurrent Neural Networks," in IEEE Access, vol. 5, pp. 21954-21961, 2017.
+
+とある文献によると、下記のように紹介されている。
+
+侵入検知について、RNNを使う方式を提案し、評価している。
+最初anomalousかlegitimateを2値分類し、その後、5つのタイプに分類している。
+
+
+## 2017_SMARTCOMP_Yuan
+
+X. Yuan, C. Li and X. Li, "DeepDefense: Identifying DDoS Attack via Deep Learning," 2017 IEEE International Conference on Smart Computing (SMARTCOMP), Hong Kong, 2017, pp. 1-8.
+doi: 10.1109/SMARTCOMP.2017.7946998
+
+とある文献によると、下記のように紹介されている。
+
+bidirectional RNNを活用したDDoS検知を提案している。
+DeepDefenseという名前のモデルを提唱し、RNNを使った手法とrandom forest、およびLSTMと比較評価を実施し、RNNを利用するのが最も良いとしている。
+
+## 2013_コンピュータソフトウェア_藤井
+
+「ビッグデータ時代における情報の巨大集積化・並列分散処理に関する研究開発動向」
+本論文はサーベイ論文である。
+まず、データベースの基本的な考え方整理のフレームワークであるCAP定理、ACID特性のお話を紹介した後に、各種のデータベースの紹介をしている。
+特に、NoSQLを強く意識した記述になっている。
+また、ファイルシステム別、もしくはクラウドの3要素であるVolume, Variety, Velocity別から、これらの紹介されたデータベースを分類している。
+
+
+
+
+
+
 
 # Usenix Security 2018 summary
 
@@ -114,6 +157,8 @@ Saarland University (ドイツ)の成果。
 
 ### Acquisitional Rule-based Engine for Discovering Internet-of-Thing Devices
 
+Chinese Academy of Science (CAS), Beijing Jiaotong University
+, University of Delawareの成果
 IoTデバイスを自動的に発見し、アノテーション付与する技術を提案。
 NLPとrule miningを用いたもの。詳細は読んでいないが、面白そう。
 かなり我々の研究に関連する。
@@ -151,8 +196,16 @@ TORのpath selectionに機械学習、具体的にはRandom Forestを用いる�
 
 ### AttriGuard: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning
 
+Iowa State Universityの成果。
+attribute inference attack対策に関するお話。
+機械学習を用いてユーザの属性情報を特定するattribute inference attackに対応するため、ユーザ側の情報に必要最小限のノイズを載せるevasion attackを活用する方法が提案されている。面白そう。あとで読む。
+対策は機械学習というわけではなさそうだが、まだはっきりしない。
+
 
 ### Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning
+
+EPFLの成果
+Privacy Policyを自動的に理解(分類)し、アノテーションする技術を提案している模様。サイズが大きいPrivacy Policyにも対応できるのがポイントとのこと。
 
 
 ## Attacks on Crypto & Crypto Libraries
@@ -259,7 +312,16 @@ TORのpath selectionに機械学習、具体的にはRandom Forestを用いる�
 
 ### SAD THUG: Structural Anomaly Detection for Transmissions of High-value Information Using Graphs
 
+Frauhofer FKIEの成果。
+イメージファイルの中に埋め込まれたマルウェアを特定するために機械学習を用いた技術を提案。マルウェアが埋め込まれることにより、イメージファイルの構造が変化するため、それを検知するらしい。
+
+
 ### FANCI: Feature-based Automated NXDomain Classification and Intelligence
+
+RWTH Aachen UniversityとSiemens CERTの成果。
+DGA (Domain Generation Algorithm)ベースのマルウェアに感染していることを検知する技術を提案している。NXD(non-existent domain)をbenign/maliciousなものに分けることで実現しているらしい。詳しくは読み込む必要有。
+Random ForestとSVMを使っているらしい。
+
 
 ### An Empirical Study of Web Resource Manipulation in Real-world Mobile Applications
 
@@ -281,8 +343,14 @@ TORのpath selectionに機械学習、具体的にはRandom Forestを用いる�
 
 ### With Great Training Comes Great Vulnerability: Practical Attacks against Transfer Learning
 
+UC Santa Barbara、University of Chicago、Virginia Techの成果。
+大規模データセットにて事前に学習させて作ったモデルを利用することで、早く精緻なモデルを構築するTransfer Learningという技術があるが、その技術に対する攻撃を示している。Transfer Learningという機械学習技術そのものに対する攻撃のお話。
+
 ### When Does Machine Learning FAIL? Generalized Transferability for Evasion and Poisoning Attacks
 
+University of Marylandの成果。
+機械学習のpoisoning attackが有効であることはよく知られているが、それが実際の攻撃者にとって本当に実現可能なのかどうかを考えるためのモデル(FAILモデル)を構築。
+機械学習に対する攻撃のお話。
 
 
 ## Smart Contracts
@@ -329,15 +397,34 @@ TORのpath selectionに機械学習、具体的にはRandom Forestを用いる�
 ### Off-Path TCP Exploit: How Wireless Routers Can Jeopardize Your Secrets
 
 
+
 ## Neural Networks
 
 ### Formal Security Analysis of Neural Networks using Symbolic Intervals
 
+Columbia Universityの成果。
+DNNのセキュリティを評価する手法を提案
+Relu関数を用いたDNNが対象とのこと。
+
+
 ### Turning Your Weakness Into a Strength: Watermarking Deep Neural Networks by Backdooring
+
+Bar-Ilan University (イスラエル)とGoogleの成果
+モデルを訓練するのにコストが大きいため、訓練済みモデルを販売するビジネスモデルが考えられるが、その訓練済みモデルは簡単にコピー・再配布が可能になってしまう。
+そのため、DNNに透かしを入れる手法を提案している模様。
 
 ### A4NT: Author Attribute Anonymity by Adversarial Training of Neural Machine Translation
 
+Max Planck Institute for Informatics(ドイツ)の成果。
+Author Attribute Classifierを無効化する手法を提案。
+これにより、authorのprivacyを保護
+
 ### GAZELLE: A Low Latency Framework for Secure Neural Network Interface
+
+MITの成果。
+サーバに内容を明かさずに分類をクラウド上で高速に実施するシステムを提案。
+基本、準同形暗号を利用しているが、高速に動作する各種ライブラリを実装した、という感じの内容が概要に書かれている。
+
 
 
 ## Information Tracking
@@ -350,166 +437,6 @@ TORのpath selectionに機械学習、具体的にはRandom Forestを用いる�
 
 ### Dependence-Preserving Data Compaction for Scalable Forensic Analisis
 
-
-
-
-# Twitter関連論文
-
-キーワードを"Twitter Account"としてIEEExplorerを検索した結果を中心に調査
-
-## Twitter Accountを分類する論文
-
-### doi: 10.1109/UBMK.2017.8093483
-
-
-M. Kantepe and M. C. Ganiz, "Preprocessing framework for Twitter bot detection," 2017 International Conference on Computer Science and Engineering (UBMK), Antalya, 2017, pp. 630-634.
-
-TwitterのSybilアカウントの特定を、教師あり機械学習問題として解いている。特徴量は、投稿されたツイート、プロファイル情報、そして時間軸の挙動情報から生成しているとのこと。その際のラベル情報は、停止されたTwitterアカウントをbotアカウントとみなすことで付与されている。
-
-
-### doi: 10.1145/2818717
-
-Emilio Ferrara, Onur Varol, Clayton Davis, Filippo Menczer, and Alessandro Flammini. 2016. The rise of social bots. Commun. ACM 59, 7 (June 2016), 96-104.
-
-Botというものは1950年代にChatbotが議論されていたころから存在しており、現在ではsocial mediaにも存在している。その特定手法についてのtaxonomyなども記載されているが、詳細はよく読まないと分からない。基本的には読み物で、具体的な技術を詳しく書いたものではないように感じる。
-
-
-
-
-### doi: 10.1109/TDSC.2012.75
-
-Z. Chu, S. Gianvecchio, H. Wang and S. Jajodia, "Detecting Automation of Twitter Accounts: Are You a Human, Bot, or Cyborg?," in IEEE Transactions on Dependable and Secure Computing, vol. 9, no. 6, pp. 811-824, Nov.-Dec. 2012.
-
-アカウントを、Human, Bot, Cyborgの3種類に分類する。Cyborgとは、Botを適宜使うHumanのことを指している。分類するために、投稿間隔から自動化されているか否かを検知し、Tweetのコンテンツのテキストパターンがspamに類似しているかを検査し、account propertyが通常の人間のアカウントと異なっていないかを検査する。そのうえで最終判定を下す。
-
-
-
-### doi: 10.1109/MC.2016.183
-
-V. S. Subrahmanian et al., "The DARPA Twitter Bot Challenge," in Computer, vol. 49, no. 6, pp. 38-46, June 2016.
-
-TwitterやFacebookにおける影響力の高いボットを特定する必要性を記載している模様。
-本記事は、DARPAが2015年に開催した影響力の高いTwitterボットを特定するcompetitionについて、記載している。詳細は後日読む。
-
-
-
-
-### doi: 10.1109/BigData.2016.7840895
-
-D. Xie, J. Xu and T. Lu, "Automated classification of extremist Twitter accounts using content-based and network-based features," 2016 IEEE International Conference on Big Data (Big Data), Washington, DC, 2016, pp. 2545-2549.
-
-ISISのアカウントを特定することをmotivationとして実施されている研究。手法は深く読まないと不明だが、コンテンツ及びネットワーク情報から特徴を抽出し、ISISプロパガンダアカウントを特定しているとのこと。地理的情報を用いている気配があるが、詳細はよく読まないと不明。
-
-
-
-### doi: 10.1109/INM.2015.7140327
-
-I. Bara, C. J. Fung and T. Dinh, "Enhancing Twitter spam accounts discovery using cross-account pattern mining," 2015 IFIP/IEEE International Symposium on Integrated Network Management (IM), Ottawa, ON, 2015, pp. 491-496.
-
-Twitterのspamアカウント検知手法に関する研究。まだアブストのみしか見ていないが、従来のように積極的にアクティビティを実施するspamではなく、検知を回避するために消極的にしか活動しないspam accountを検知する手法について検討しているとのこと。我々の研究に関連しそうなので、是非読むべき。
-
-
-
-### doi: 10.1109/ICMLA.2014.81
-
-M. Alsaleh, A. Alarifi, A. M. Al-Salman, M. Alfayez and A. Almuhaysin, "TSD: Detecting Sybil Accounts in Twitter," 2014 13th International Conference on Machine Learning and Applications, Detroit, MI, 2014, pp. 463-469.
-
-従来の検知手法は、Sybil Accountはlegitimateなaccountとのつながりが持てないということを前提にしていたが、その前提が崩れてきているため、Sybil accountの分析を実施し、corpusを作成したとのこと。また、brower pluginを作成し、ユーザにSybil accountについて警告を出せるようにしたとのこと。我々の研究に関連しそうなので、是非読むべき。
-
-
-### doi: 10.1109/ICDM.2016.0096
-
-N. Chavoshi, H. Hamooni and A. Mueen, "DeBot: Twitter Bot Detection via Warped Correlation," 2016 IEEE 16th International Conference on Data Mining (ICDM), Barcelona, 2016, pp. 817-822.
-
-
-長期にわたりほぼ同期して動作するアカウントはボットであるとの前提のした、ボットを特定する技術を提案。
-教師なし学習を用いているところ、および単体のユーザではなくユーザ間の関係を見ているところを新規指定として主張している。
-94%の検知率を誇り、Twitterがアカウントを停止するより前にアカウントを特定することに成功しているとのこと。
-
-
-## doi: 10.1145/2531602.2531636
-
-Parantapa Bhattacharya, Saptarshi Ghosh, Juhi Kulshrestha, Mainack Mondal, Muhammad Bilal Zafar, Niloy Ganguly, and Krishna P. Gummadi. 2014. Deep Twitter diving: exploring topical groups in microblogs at scale. In Proceedings of the 17th ACM conference on Computer supported cooperative work & social computing (CSCW '14). ACM, New York, NY, USA, 197-210
-
-大量のTwitterのユーザの中から、共通のトピックを持つグループを見つけ出す手法を提案。これらのグループは規模も小さく、これまで研究業界では着目されておらず、そこに着目したとのこと。まずは特定の話題毎に専門家を見つけ、次にそのフォロワーを探すという方法により、グループを生成していくとのこと。
-
-
-## Tweetの信頼性を追求する論文
-
-### doi: 10.1109/TDSC.2016.2602338
-
-M. Alrubaian, M. Al-Qurishi, M. M. Hassan and A. Alamri, "A Credibility Analysis System for Assessing Information on Twitter," in IEEE Transactions on Dependable and Secure Computing, vol. 15, no. 4, pp. 661-674, 1 July-Aug. 2018.
-
-Twitter accountを評価するのが目的ではなく、Tweet自体の信頼性を評価する。とはいえ、Twitter userの評価も内部で実施している。reputationシステムが幹の論文のように見えるが、詳細は読み込む必要有。牛込君のレポートに詳しい記載有。
-
-
-
-## Twitterの中のcriminal networkを発見する論文
-
-
-### doi: 10.1109/MCI.2013.2291689
-
-R. Y. K. Lau, Y. Xia and Y. Ye, "A Probabilistic Generative Model for Mining Cybercriminal Networks from Online Social Media," in IEEE Computational Intelligence Magazine, vol. 9, no. 1, pp. 31-43, Feb. 2014.
-
-Twitterに限らずではあるが、social mediaの中のcriminal networkを特定するためにminingを実施し、forensicsに活かすという論文。
-詳細は後日読む。
-
-
-
-
-## Twitterをセキュリティアラート生成に活かす論文
-
-### doi: 10.1109/ASONAM.2016.7752338
-
-S. Mittal, P. K. Das, V. Mulwad, A. Joshi and T. Finin, "CyberTwitter: Using Twitter to generate alerts for cybersecurity threats and vulnerabilities," 2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), San Francisco, CA, 2016, pp. 860-867.
-
-TwitterをOSINT sourceとして用いようというもの。
-構造化されていないTwitterの内容を、SVCEと呼ばれるシステム(修士論文が参照されている)を用いて分析し、RDF形式にて記録する。
-SWRLを用いて演繹計算などするようであるが、詳細は不明。
-セキュリティについては、情報が正確とは限らないため、人をプロセスの中に介在させるべきである、と言っているのみであり、本論文のfocusにはなっていない。
-
-
-
-# Twitter関連以外の論文
-
-
-## Usenix_2014_Viswanath
-
-Towards Detecting Anomalous User Behavior in Online Social Networks
-Authors: 
-Bimal Viswanath and M. Ahmad Bashir, Max Planck Institute for Software Systems (MPI-SWS); Mark Crovella, Boston University; Saikat Guha, Microsoft Research; Krishna P. Gummadi, Max Planck Institute for Software Systems (MPI-SWS); Balachander Krishnamurthy, AT&T Labs–Research; Alan Mislove, Northeastern University
-
-TwitterというよりはFacebookを対象とし、異常な挙動を検知する。結果的に怪しいアカウントを特定する方式である。PCAを利用することで、その異常な挙動を特定することを試みている。詳細は読む必要有。牛込君のレポートに詳しい記載有。
-
-
-
-## doi: 10.1109/ACCESS.2017.2762418
-
-C. Yin, Y. Zhu, J. Fei and X. He, "A Deep Learning Approach for Intrusion Detection Using Recurrent Neural Networks," in IEEE Access, vol. 5, pp. 21954-21961, 2017.
-
-とある文献によると、下記のように紹介されている。
-
-侵入検知について、RNNを使う方式を提案し、評価している。
-最初anomalousかlegitimateを2値分類し、その後、5つのタイプに分類している。
-
-
-## 2017_SMARTCOMP_Yuan
-
-X. Yuan, C. Li and X. Li, "DeepDefense: Identifying DDoS Attack via Deep Learning," 2017 IEEE International Conference on Smart Computing (SMARTCOMP), Hong Kong, 2017, pp. 1-8.
-doi: 10.1109/SMARTCOMP.2017.7946998
-
-とある文献によると、下記のように紹介されている。
-
-bidirectional RNNを活用したDDoS検知を提案している。
-DeepDefenseという名前のモデルを提唱し、RNNを使った手法とrandom forest、およびLSTMと比較評価を実施し、RNNを利用するのが最も良いとしている。
-
-## 2013_コンピュータソフトウェア_藤井
-
-「ビッグデータ時代における情報の巨大集積化・並列分散処理に関する研究開発動向」
-本論文はサーベイ論文である。
-まず、データベースの基本的な考え方整理のフレームワークであるCAP定理、ACID特性のお話を紹介した後に、各種のデータベースの紹介をしている。
-特に、NoSQLを強く意識した記述になっている。
-また、ファイルシステム別、もしくはクラウドの3要素であるVolume, Variety, Velocity別から、これらの紹介されたデータベースを分類している。
 
 
 
