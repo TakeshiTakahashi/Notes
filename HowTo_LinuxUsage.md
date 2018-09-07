@@ -24,6 +24,13 @@ CentOSをVirtual BoxのGuest OSとしてインストールする際には、一緒に"Guest Addition
 音が出ない際には、hypervisor側の設定を見直す。
 ネットワーク接続がうまくいかないときには、/etc/sysconfig/network-scripts/ifcfg-xxxファイルの中で、NM_CONTROLLED="no"として、Network Managerを無効にすると、わかりやすくなることもある。
 
+
+Guest Additionがうまく動作していない場合、下記を実施してみると直ることがある。
+
+cd /opt/VBoxGuestAdditions-*/init  
+sudo ./vboxadd setup
+
+
 yumの設定
 ホスト側のウィルス対策ソフトの設定が必要な場合もある
 普通にpingも通り、browserが見れても、yumが通らない場合あり
@@ -49,6 +56,10 @@ terminalの色設定
 共有フォルダのマウント
 mount -t vboxsf LinuxShare WinShare
 vboxsf stands for virtual box shared file
+
+但し、このままではrootがmountしたものはrootでないと書き込みできないので、オプション指定をする必要有。
+
+mount -t vboxsf -o uid=take Dropbox Dropbox
 
 CDROMのマウント
     mount -t iso9660 -o loop [iso イメージファイル名] /mnt/iso
