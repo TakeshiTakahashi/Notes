@@ -1,135 +1,135 @@
 
 ----------------------------------------------
-Virtualbox‚ÌŠî–{‘€ì
+Virtualboxã®åŸºæœ¬æ“ä½œ
 ----------------------------------------------
 
-HostƒL[‚Æ‚µ‚ÄAƒfƒtƒHƒ‹ƒg‚Å‚Í‰ECtrlƒL[‚ªŠ„‚è“–‚Ä‚ç‚ê‚éB‚±‚ÌƒL[‚ğ‰Ÿ‚·‚±‚Æ‚ÅAVirtual Box‚Ì’†‚ÆŠO‚ğs‚«—ˆ‚Å‚«‚éB
+Hostã‚­ãƒ¼ã¨ã—ã¦ã€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§ã¯å³Ctrlã‚­ãƒ¼ãŒå‰²ã‚Šå½“ã¦ã‚‰ã‚Œã‚‹ã€‚ã“ã®ã‚­ãƒ¼ã‚’æŠ¼ã™ã“ã¨ã§ã€Virtual Boxã®ä¸­ã¨å¤–ã‚’è¡Œãæ¥ã§ãã‚‹ã€‚
 
 ----------------------------------------------
-‹¤’Ê
+å…±é€š
 ----------------------------------------------
 
-ƒtƒHƒ‹ƒ_“à‚Ìƒtƒ@ƒCƒ‹”‚ÌƒJƒEƒ“ƒg: ls -Ul|wc -l
+ãƒ•ã‚©ãƒ«ãƒ€å†…ã®ãƒ•ã‚¡ã‚¤ãƒ«æ•°ã®ã‚«ã‚¦ãƒ³ãƒˆ: ls -Ul|wc -l
 
-nohup  .... &    ‚Æ‚µ‚ÄÀs‚·‚ê‚ÎAƒƒOƒAƒEƒgŒã‚àƒRƒ“ƒsƒ…[ƒ^‚Ìˆ—‚ÍŒp‘±‚³‚ê‚éB
+nohup  .... &    ã¨ã—ã¦å®Ÿè¡Œã™ã‚Œã°ã€ãƒ­ã‚°ã‚¢ã‚¦ãƒˆå¾Œã‚‚ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ã®å‡¦ç†ã¯ç¶™ç¶šã•ã‚Œã‚‹ã€‚
 
 ----------------------------------------------
-CentOS•Ò
+CentOSç·¨
 ----------------------------------------------
 
-CentOS‚ÌƒCƒ“ƒXƒg[ƒ‹E‰Šúİ’è
-CentOS‚ğVirtual Box‚ÌGuest OS‚Æ‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚·‚éÛ‚É‚ÍAˆê‚É"Guest Additions"‚Æ‚¢‚¤ƒ‚ƒWƒ…[ƒ‹‚ğƒCƒ“ƒXƒg[ƒ‹‚µ‚½‚Ù‚¤‚ªg‚¢‚â‚·‚¢Bƒ}ƒEƒX‚ªintegrate‚³‚ê‚éB‚Ü‚½AGuest OS‚Ì‰ğ‘œ“x‚ªÅ“K‰»‚³‚ê‚éB(http://qiita.com/SUZUKI_Masaya/items/ac0c9e8eb060f84f25a3)
-ƒVƒ‡[ƒgƒJƒbƒg‚Ìİ’è‚ÍA–³Œø‰»‚³‚ê‚Ä‚¢‚é‚à‚Ì‚à‘½‚¢‚Ì‚ÅAŒ©’¼‚µ‚ª•K—v
-“ú–{Œê“ü—Í‚Ìİ’è: gnomeó‚ÉƒCƒ“ƒvƒbƒgƒƒ\ƒbƒh‚ª‘I‘ğ‚Å‚«‚È‚¢Œ`‚É‚È‚Á‚Ä‚¢‚éÛ‚É‚ÍAIbus‚ÆAnthy‚ª—˜—p‚³‚ê‚éŒ`‚É‚È‚Á‚Ä‚¢‚é‚©AŠm”F‚ª•K—v
-‰¹‚ªo‚È‚¢Û‚É‚ÍAhypervisor‘¤‚Ìİ’è‚ğŒ©’¼‚·B
-ƒlƒbƒgƒ[ƒNÚ‘±‚ª‚¤‚Ü‚­‚¢‚©‚È‚¢‚Æ‚«‚É‚ÍA/etc/sysconfig/network-scripts/ifcfg-xxxƒtƒ@ƒCƒ‹‚Ì’†‚ÅANM_CONTROLLED="no"‚Æ‚µ‚ÄANetwork Manager‚ğ–³Œø‚É‚·‚é‚ÆA‚í‚©‚è‚â‚·‚­‚È‚é‚±‚Æ‚à‚ ‚éB
+CentOSã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ»åˆæœŸè¨­å®š
+CentOSã‚’Virtual Boxã®Guest OSã¨ã—ã¦ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹éš›ã«ã¯ã€ä¸€ç·’ã«"Guest Additions"ã¨ã„ã†ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ãŸã»ã†ãŒä½¿ã„ã‚„ã™ã„ã€‚ãƒã‚¦ã‚¹ãŒintegrateã•ã‚Œã‚‹ã€‚ã¾ãŸã€Guest OSã®è§£åƒåº¦ãŒæœ€é©åŒ–ã•ã‚Œã‚‹ã€‚(http://qiita.com/SUZUKI_Masaya/items/ac0c9e8eb060f84f25a3)
+ã‚·ãƒ§ãƒ¼ãƒˆã‚«ãƒƒãƒˆã®è¨­å®šã¯ã€ç„¡åŠ¹åŒ–ã•ã‚Œã¦ã„ã‚‹ã‚‚ã®ã‚‚å¤šã„ã®ã§ã€è¦‹ç›´ã—ãŒå¿…è¦
+æ—¥æœ¬èªå…¥åŠ›ã®è¨­å®š: gnomeçŠ¶ã«ã‚¤ãƒ³ãƒ—ãƒƒãƒˆãƒ¡ã‚½ãƒƒãƒ‰ãŒé¸æŠã§ããªã„å½¢ã«ãªã£ã¦ã„ã‚‹éš›ã«ã¯ã€Ibusã¨AnthyãŒåˆ©ç”¨ã•ã‚Œã‚‹å½¢ã«ãªã£ã¦ã„ã‚‹ã‹ã€ç¢ºèªãŒå¿…è¦
+éŸ³ãŒå‡ºãªã„éš›ã«ã¯ã€hypervisorå´ã®è¨­å®šã‚’è¦‹ç›´ã™ã€‚
+ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ¥ç¶šãŒã†ã¾ãã„ã‹ãªã„ã¨ãã«ã¯ã€/etc/sysconfig/network-scripts/ifcfg-xxxãƒ•ã‚¡ã‚¤ãƒ«ã®ä¸­ã§ã€NM_CONTROLLED="no"ã¨ã—ã¦ã€Network Managerã‚’ç„¡åŠ¹ã«ã™ã‚‹ã¨ã€ã‚ã‹ã‚Šã‚„ã™ããªã‚‹ã“ã¨ã‚‚ã‚ã‚‹ã€‚
 
 
-Guest Addition‚ª‚¤‚Ü‚­“®ì‚µ‚Ä‚¢‚È‚¢ê‡A‰º‹L‚ğÀ{‚µ‚Ä‚İ‚é‚Æ’¼‚é‚±‚Æ‚ª‚ ‚éB
+Guest AdditionãŒã†ã¾ãå‹•ä½œã—ã¦ã„ãªã„å ´åˆã€ä¸‹è¨˜ã‚’å®Ÿæ–½ã—ã¦ã¿ã‚‹ã¨ç›´ã‚‹ã“ã¨ãŒã‚ã‚‹ã€‚
 
 cd /opt/VBoxGuestAdditions-*/init  
 sudo ./vboxadd setup
 
 
-yum‚Ìİ’è
-ƒzƒXƒg‘¤‚ÌƒEƒBƒ‹ƒX‘Îôƒ\ƒtƒg‚Ìİ’è‚ª•K—v‚Èê‡‚à‚ ‚é
-•’Ê‚Éping‚à’Ê‚èAbrowser‚ªŒ©‚ê‚Ä‚àAyum‚ª’Ê‚ç‚È‚¢ê‡‚ ‚è
-proxy‚Ìİ’è‚ÌƒP[ƒX‚à‚ ‚é‚ªA‚»‚ê‚Å‚à‚¤‚Ü‚­‚¢‚©‚È‚¢ƒP[ƒX‚ ‚è
-symantec endpoint protection‚Å‚ÍAuƒlƒbƒgƒ[ƒN‹ºˆĞ–h~v‚Ì€–Ú‚ğC³‚µ‚Ä‚¤‚Ü‚­‚¢‚Á‚½B
-‚Ü‚½Ayum install‚âyum updateÀs‘O‚ÉAyum clean all‚ğ‚·‚é‚ÆA‚¤‚Ü‚­‚¢‚­‚±‚Æ‚ª‚ ‚éB
-•K—v‚É‰‚¶‚ÄAƒŠƒ|ƒWƒgƒŠ‚ğ’Ç‰Á‚µ‚Ä—˜—p‚·‚é
+yumã®è¨­å®š
+ãƒ›ã‚¹ãƒˆå´ã®ã‚¦ã‚£ãƒ«ã‚¹å¯¾ç­–ã‚½ãƒ•ãƒˆã®è¨­å®šãŒå¿…è¦ãªå ´åˆã‚‚ã‚ã‚‹
+æ™®é€šã«pingã‚‚é€šã‚Šã€browserãŒè¦‹ã‚Œã¦ã‚‚ã€yumãŒé€šã‚‰ãªã„å ´åˆã‚ã‚Š
+proxyã®è¨­å®šã®ã‚±ãƒ¼ã‚¹ã‚‚ã‚ã‚‹ãŒã€ãã‚Œã§ã‚‚ã†ã¾ãã„ã‹ãªã„ã‚±ãƒ¼ã‚¹ã‚ã‚Š
+symantec endpoint protectionã§ã¯ã€ã€Œãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯è„…å¨é˜²æ­¢ã€ã®é …ç›®ã‚’ä¿®æ­£ã—ã¦ã†ã¾ãã„ã£ãŸã€‚
+ã¾ãŸã€yum installã‚„yum updateå®Ÿè¡Œå‰ã«ã€yum clean allã‚’ã™ã‚‹ã¨ã€ã†ã¾ãã„ãã“ã¨ãŒã‚ã‚‹ã€‚
+å¿…è¦ã«å¿œã˜ã¦ã€ãƒªãƒã‚¸ãƒˆãƒªã‚’è¿½åŠ ã—ã¦åˆ©ç”¨ã™ã‚‹
 yum -y install epel-release
 
-iptables‚Ìİ’è
-@@"getenforce"‚ÅŒ»İ‚Ìiptables‚Ì‰Ò“­ó‹µ‚ª•ª‚©‚èA"setenforce 0"‚Åiptables‚ğ~‚ß‚é‚±‚Æ‚ª‚Å‚«‚é
+iptablesã®è¨­å®š
+ã€€ã€€"getenforce"ã§ç¾åœ¨ã®iptablesã®ç¨¼åƒçŠ¶æ³ãŒåˆ†ã‹ã‚Šã€"setenforce 0"ã§iptablesã‚’æ­¢ã‚ã‚‹ã“ã¨ãŒã§ãã‚‹
 
-selinux‚Ìİ’è
-    /etc/selinux‚Ìƒtƒ@ƒCƒ‹“à‚ÉAselinux disabled‚ğ‹LÚ‚·‚é‚±‚Æ‚ÅAselinux‚ğ–³Œø‰»‚Å‚«‚é
+selinuxã®è¨­å®š
+    /etc/selinuxã®ãƒ•ã‚¡ã‚¤ãƒ«å†…ã«ã€selinux disabledã‚’è¨˜è¼‰ã™ã‚‹ã“ã¨ã§ã€selinuxã‚’ç„¡åŠ¹åŒ–ã§ãã‚‹
 
-firewall‚Ìİ’è
-   "systemctl stop firewalld.service"‚ÅAfirewalld‚ğˆê“I‚É~‚ß‚é‚±‚Æ‚ª‚Å‚«‚éB‰i‘±“I‚É~‚ß‚éê‡‚É‚ÍAstop‚Ì‘ã‚í‚è‚Édisable‚ğ•t‚¯‚éB
+firewallã®è¨­å®š
+   "systemctl stop firewalld.service"ã§ã€firewalldã‚’ä¸€æ™‚çš„ã«æ­¢ã‚ã‚‹ã“ã¨ãŒã§ãã‚‹ã€‚æ°¸ç¶šçš„ã«æ­¢ã‚ã‚‹å ´åˆã«ã¯ã€stopã®ä»£ã‚ã‚Šã«disableã‚’ä»˜ã‘ã‚‹ã€‚
 
-terminal‚ÌFİ’è
-    terminal‚ğ‹N“®‚µ‚½‚çAuİ’èv‚ğƒNƒŠƒbƒN‚µ‚ÄA‚»‚Ì’†‚Ìprofile‚ğì¬‚·‚éB‚»‚Ìprofile‚Ì’†‚ÅFİ’è‚ğ‚·‚ê‚ÎOK
+terminalã®è‰²è¨­å®š
+    terminalã‚’èµ·å‹•ã—ãŸã‚‰ã€ã€Œè¨­å®šã€ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã€ãã®ä¸­ã®profileã‚’ä½œæˆã™ã‚‹ã€‚ãã®profileã®ä¸­ã§è‰²è¨­å®šã‚’ã™ã‚Œã°OK
 
-[ƒ}ƒEƒ“ƒg]
-‹¤—LƒtƒHƒ‹ƒ_‚Ìƒ}ƒEƒ“ƒg
+[ãƒã‚¦ãƒ³ãƒˆ]
+å…±æœ‰ãƒ•ã‚©ãƒ«ãƒ€ã®ãƒã‚¦ãƒ³ãƒˆ
 mount -t vboxsf LinuxShare WinShare
 vboxsf stands for virtual box shared file
 
-’A‚µA‚±‚Ì‚Ü‚Ü‚Å‚Íroot‚ªmount‚µ‚½‚à‚Ì‚Íroot‚Å‚È‚¢‚Æ‘‚«‚İ‚Å‚«‚È‚¢‚Ì‚ÅAƒIƒvƒVƒ‡ƒ“w’è‚ğ‚·‚é•K—v—LB
+ä½†ã—ã€ã“ã®ã¾ã¾ã§ã¯rootãŒmountã—ãŸã‚‚ã®ã¯rootã§ãªã„ã¨æ›¸ãè¾¼ã¿ã§ããªã„ã®ã§ã€ã‚ªãƒ—ã‚·ãƒ§ãƒ³æŒ‡å®šã‚’ã™ã‚‹å¿…è¦æœ‰ã€‚
 
 mount -t vboxsf -o uid=take Dropbox Dropbox
 
-CDROM‚Ìƒ}ƒEƒ“ƒg
-    mount -t iso9660 -o loop [iso ƒCƒ[ƒWƒtƒ@ƒCƒ‹–¼] /mnt/iso
+CDROMã®ãƒã‚¦ãƒ³ãƒˆ
+    mount -t iso9660 -o loop [iso ã‚¤ãƒ¡ãƒ¼ã‚¸ãƒ•ã‚¡ã‚¤ãƒ«å] /mnt/iso
 
-WebdavƒtƒHƒ‹ƒ_‚Ìƒ}ƒEƒ“ƒg
-    davfs2‚ğapt-get‚É‚æ‚èƒCƒ“ƒXƒg[ƒ‹B‚»‚ÌŒãA‰º‹L‚Ì‚Æ‚¨‚è‚Émount‚ğÀ{
+Webdavãƒ•ã‚©ãƒ«ãƒ€ã®ãƒã‚¦ãƒ³ãƒˆ
+    davfs2ã‚’apt-getã«ã‚ˆã‚Šã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã€‚ãã®å¾Œã€ä¸‹è¨˜ã®ã¨ãŠã‚Šã«mountã‚’å®Ÿæ–½
     mount -t davfs https://dav.box.com/dav webdav_box
-    ®Awebdav_box‚ÍA”CˆÓ‚ÌƒfƒBƒŒƒNƒgƒŠ‚Å\‚í‚È‚¢B
+    å°šã€webdav_boxã¯ã€ä»»æ„ã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã§æ§‹ã‚ãªã„ã€‚
 
-nfsƒtƒHƒ‹ƒ_‚Ìƒ}ƒEƒ“ƒg
-    Centos 7‚Å‚ÍAƒpƒbƒP[ƒW‚ª•K—vB
+nfsãƒ•ã‚©ãƒ«ãƒ€ã®ãƒã‚¦ãƒ³ãƒˆ
+    Centos 7ã§ã¯ã€ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ãŒå¿…è¦ã€‚
     yum -y install nfs-utils
     mount -t nfs [target host]:[target dir] [local dir]
 
-smbƒtƒHƒ‹ƒ_‚Ìƒ}ƒEƒ“ƒg (Œ¤‹†ºNAS‚Ìƒ}ƒEƒ“ƒg)
+smbãƒ•ã‚©ãƒ«ãƒ€ã®ãƒã‚¦ãƒ³ãƒˆ (ç ”ç©¶å®¤NASã®ãƒã‚¦ãƒ³ãƒˆ)
     yum install samba-client samba-winbind cifs-utils
     mount.cifs //usl-5p.develop.net/disk1 /mnt/usl-5pm/ -o user=take,pass=xxxxxxxx
     mount.cifs //192.168.0.12/homes/take /mnt/nas -o user=take,pass=password,vers=3.0
 
-    vers=3.0‚ª‚È‚º•K—v‚©‚Í‚æ‚­‚í‚©‚Á‚Ä‚¢‚È‚¢‚ªA‚¤‚Ü‚­‚¢‚©‚È‚¢‚Æ‚«‚Í‚±‚ê‚ğ•t‚¯‚é‚Æ‚¤‚Ü‚­‚¢‚­
+    vers=3.0ãŒãªãœå¿…è¦ã‹ã¯ã‚ˆãã‚ã‹ã£ã¦ã„ãªã„ãŒã€ã†ã¾ãã„ã‹ãªã„ã¨ãã¯ã“ã‚Œã‚’ä»˜ã‘ã‚‹ã¨ã†ã¾ãã„ã
 
-[ƒ}ƒEƒ“ƒgó‹µ‚ÌŠm”F]
+[ãƒã‚¦ãƒ³ãƒˆçŠ¶æ³ã®ç¢ºèª]
 cat /etc/mtab
 
-[ƒ}ƒEƒ“ƒg‚Ì‰ğœ]
+[ãƒã‚¦ãƒ³ãƒˆã®è§£é™¤]
 umount /dev/cdrom
 
-[ƒlƒbƒgƒ[ƒN‚ÌŠm”F]
-Eƒgƒ‰ƒtƒBƒbƒN‚ÌŠm”F
+[ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã®ç¢ºèª]
+ãƒ»ãƒˆãƒ©ãƒ•ã‚£ãƒƒã‚¯ã®ç¢ºèª
      syntax:   tcpdump -nni [interface name]
      e.g.:        tcpdump -nni eth1
 
-Eƒ‹[ƒeƒBƒ“ƒOƒe[ƒuƒ‹‚ÌŠm”F
+ãƒ»ãƒ«ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ãƒ†ãƒ¼ãƒ–ãƒ«ã®ç¢ºèª
     netstat -rn
 
-Eƒ‹[ƒeƒBƒ“ƒOƒe[ƒuƒ‹‚Ì•ÏX (static‚È•ÏX)
+ãƒ»ãƒ«ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ãƒ†ãƒ¼ãƒ–ãƒ«ã®å¤‰æ›´ (staticãªå¤‰æ›´)
    /etc/sysconfig/network-scripts/route-eth1
-   •ÏX‚µ‚½‚çA/etc/init.d/network restart‚ğ–Y‚ê‚¸‚ÉÀ{
-   ‚±‚ÌÛ‚ÉAifcfg-eth1‚ÉAHWADDR‚ªw’è‚³‚ê‚Ä‚¢‚È‚¢‚ÆArestart‚ª‚¤‚Ü‚­‚¢‚©‚È‚¢‚±‚Æ‚ª‚ ‚é‚Ì‚Å’ˆÓ
+   å¤‰æ›´ã—ãŸã‚‰ã€/etc/init.d/network restartã‚’å¿˜ã‚Œãšã«å®Ÿæ–½
+   ã“ã®éš›ã«ã€ifcfg-eth1ã«ã€HWADDRãŒæŒ‡å®šã•ã‚Œã¦ã„ãªã„ã¨ã€restartãŒã†ã¾ãã„ã‹ãªã„ã“ã¨ãŒã‚ã‚‹ã®ã§æ³¨æ„
 
-ENICİ’è‚ÌŠm”F
+ãƒ»NICè¨­å®šã®ç¢ºèª
     /etc/udev/rules.d/70-persistent-net.rules
 
 
-[ƒn[ƒhƒEƒFƒAî•ñ‚ÌŠm”F]
+[ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢æƒ…å ±ã®ç¢ºèª]
 
-ƒƒ‚ƒŠ—e—Ê‚ÌŠm”F
+ãƒ¡ãƒ¢ãƒªå®¹é‡ã®ç¢ºèª
 cat /proc/meminfo
 
 [OpenVPN]
-ƒCƒ“ƒXƒg[ƒ‹‚Íyum‚É‚ÄÀ{B’A‚µAepel (enterprise linux)ƒŠƒ|ƒWƒgƒŠ‚ğ“Ç‚İ‚ß‚é‚æ‚¤‚É‚µ‚Ä‚¨‚­•K—v—L
-‹N“®‚ÍA‰º‹L‚Ì’Ê‚èB’A‚µAˆø”‚Ìİ’èƒtƒ@ƒCƒ‹“à‚ÅAØ–¾‘‚È‚Ç3í—Ş‚Ìw’è‚ª•K—vB
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã¯yumã«ã¦å®Ÿæ–½ã€‚ä½†ã—ã€epel (enterprise linux)ãƒªãƒã‚¸ãƒˆãƒªã‚’èª­ã¿è¾¼ã‚ã‚‹ã‚ˆã†ã«ã—ã¦ãŠãå¿…è¦æœ‰
+èµ·å‹•ã¯ã€ä¸‹è¨˜ã®é€šã‚Šã€‚ä½†ã—ã€å¼•æ•°ã®è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«å†…ã§ã€è¨¼æ˜æ›¸ãªã©3ç¨®é¡ã®æŒ‡å®šãŒå¿…è¦ã€‚
 /usr/sbin/openvpn /etc/openvpn/client.ovpn &
 
 [browser install]
-Chrome‚ÍA‰º‹L‚É]‚¢ƒCƒ“ƒXƒg[ƒ‹B’A‚µA”ñí‚Éd‚¢B
+Chromeã¯ã€ä¸‹è¨˜ã«å¾“ã„ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã€‚ä½†ã—ã€éå¸¸ã«é‡ã„ã€‚
 http://www.tecmint.com/install-google-chrome-on-redhat-centos-fedora-linux/
 
 
 [audio player]
-Banshee Media Player‚ğ‚Ü‚¸‚Íg‚Á‚Ä‚İ‚éB
+Banshee Media Playerã‚’ã¾ãšã¯ä½¿ã£ã¦ã¿ã‚‹ã€‚
 
-[—˜—p‚·‚éƒ\ƒtƒg]
+[åˆ©ç”¨ã™ã‚‹ã‚½ãƒ•ãƒˆ]
   PDF viewer: evince
 
-[‹­§I—¹]
-ps aux | grep ƒvƒƒOƒ‰ƒ€–¼
-kill ƒvƒƒZƒXID
+[å¼·åˆ¶çµ‚äº†]
+ps aux | grep ãƒ—ãƒ­ã‚°ãƒ©ãƒ å
+kill ãƒ—ãƒ­ã‚»ã‚¹ID
 
-kill‚Å‚¤‚Ü‚­ƒvƒƒZƒX‚ğ’â~‚Å‚«‚È‚¢ê‡‚É‚ÍAkill -9 ƒvƒƒZƒXID‚Æ‚·‚é‚ÆA‹­§I—¹‚Å‚«‚éB
+killã§ã†ã¾ããƒ—ãƒ­ã‚»ã‚¹ã‚’åœæ­¢ã§ããªã„å ´åˆã«ã¯ã€kill -9 ãƒ—ãƒ­ã‚»ã‚¹IDã¨ã™ã‚‹ã¨ã€å¼·åˆ¶çµ‚äº†ã§ãã‚‹ã€‚
 
 
 [MSV]
@@ -144,51 +144,51 @@ msv -verbose iodef-sci.xsd iodef-sci-MTIexample.xml
 
 
 ----------------------------------------------
-Kali Linux•Ò
+Kali Linuxç·¨
 ----------------------------------------------
 
 
-[Kali Linux‚ÌƒCƒ“ƒXƒg[ƒ‹]
-Virtualbox‚Å‚ÍADebian 64 bit‚Æ‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹
+[Kali Linuxã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«]
+Virtualboxã§ã¯ã€Debian 64 bitã¨ã—ã¦ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
-[vboxsfƒ^ƒCƒv‚Ìƒ}ƒEƒ“ƒg]
-apt-get‚É‚ÄAvirtualbox-guest-utils‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚é•K—v—LB
+[vboxsfã‚¿ã‚¤ãƒ—ã®ãƒã‚¦ãƒ³ãƒˆ]
+apt-getã«ã¦ã€virtualbox-guest-utilsã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹å¿…è¦æœ‰ã€‚
 
-[Snort‚ÌƒCƒ“ƒXƒg[ƒ‹]
-Kali Linux‚É‚ÄƒCƒ“ƒXƒg[ƒ‹‚ğÀ{‚µ‚½Û‚Ìƒƒ‚B
-‚Ü‚¸‚ÍƒCƒ“ƒXƒg[ƒ‹: apt-get install snort
-“Æ©‚Ìƒ‹[ƒ‹‚ğì¬‚·‚éƒtƒ@ƒCƒ‹custom.rules‚ğì¬
-alert icmp any any -> any any (msg:"Test Rule";sid:10001;rev:1;)   ‚±‚ê‚É‚æ‚èAicmp packet‚ª‚·‚×‚Äalert‚Æ‚µ‚Ä‹L˜^‚³‚ê‚éB
-snort.conf‚ğ•ÒW‚µAcustom.rules‚ğinclude‚·‚é
-snort‚ğÀs: /usr/local/bin/snort -Dd -A full -c /etc/snort/snort.conf -u snort -g snort
+[Snortã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«]
+Kali Linuxã«ã¦ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚’å®Ÿæ–½ã—ãŸéš›ã®ãƒ¡ãƒ¢ã€‚
+ã¾ãšã¯ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«: apt-get install snort
+ç‹¬è‡ªã®ãƒ«ãƒ¼ãƒ«ã‚’ä½œæˆã™ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«custom.rulesã‚’ä½œæˆ
+alert icmp any any -> any any (msg:"Test Rule";sid:10001;rev:1;)   ã“ã‚Œã«ã‚ˆã‚Šã€icmp packetãŒã™ã¹ã¦alertã¨ã—ã¦è¨˜éŒ²ã•ã‚Œã‚‹ã€‚
+snort.confã‚’ç·¨é›†ã—ã€custom.rulesã‚’includeã™ã‚‹
+snortã‚’å®Ÿè¡Œ: /usr/local/bin/snort -Dd -A full -c /etc/snort/snort.conf -u snort -g snort
 
-SnortƒƒO‰ğÍ‚Ì‰Â‹‰»ƒc[ƒ‹‚Å‚ ‚éBase‚É‚Â‚¢‚Ä‚ÍAŒ»İƒCƒ“ƒXƒg[ƒ‹’†B‰º‹L‚ÌƒTƒCƒg‚ªQl‚É‚È‚éB
+Snortãƒ­ã‚°è§£æã®å¯è¦–åŒ–ãƒ„ãƒ¼ãƒ«ã§ã‚ã‚‹Baseã«ã¤ã„ã¦ã¯ã€ç¾åœ¨ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ä¸­ã€‚ä¸‹è¨˜ã®ã‚µã‚¤ãƒˆãŒå‚è€ƒã«ãªã‚‹ã€‚
 https://www.howtoforge.com/intrusion-detection-with-snort-mysql-apache2-on-ubuntu-7.10#-get-base-basic-analysis-and-security-engine
 
 
 ----------------------------------------------
-Cygwin•Ò
+Cygwinç·¨
 ----------------------------------------------
 
-X‚ğ—˜—p‚·‚é‚½‚ß‚Ìè‘±‚«
-1. apt-cyg‚É‚Äxorg-server‚Æxinit‚ğƒCƒ“ƒXƒg[ƒ‹
+Xã‚’åˆ©ç”¨ã™ã‚‹ãŸã‚ã®æ‰‹ç¶šã
+1. apt-cygã«ã¦xorg-serverã¨xinitã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 2. run xwin -multiwindow -listen tcp
 3. DISPlAY=localhost:0.0;export DISPLAY
-3. Šm”F‚Ì‚½‚ßAmintty‚Æxterm‚ÅV‚½‚Èwindow‚ª—§‚¿ã‚ª‚é‚±‚Æ‚ğŠm”F
+3. ç¢ºèªã®ãŸã‚ã€minttyã¨xtermã§æ–°ãŸãªwindowãŒç«‹ã¡ä¸ŠãŒã‚‹ã“ã¨ã‚’ç¢ºèª
 
 
-TeX‚ÌƒCƒ“ƒXƒg[ƒ‹‚ÍA‰º‹L‚Ì’Ê‚è
+TeXã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã¯ã€ä¸‹è¨˜ã®é€šã‚Š
 apt-cyg install texlive
 
-texcount‚Í‰º‹L‚©‚çƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä—˜—p‰Â”\BÀ‘Ì‚ÍAperl scriptB
+texcountã¯ä¸‹è¨˜ã‹ã‚‰ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦åˆ©ç”¨å¯èƒ½ã€‚å®Ÿä½“ã¯ã€perl scriptã€‚
 http://app.uio.no/ifi/texcount/
 
 
 ----------------------------------------------
-‚»‚Ì‘¼
+ãã®ä»–
 ----------------------------------------------
 
 
 route add 192.168.1.27 mask 255.255.255.255 192.168.11.46 metric 1
-‚±‚ê‚É‚æ‚èAŒ¤‹†ºNAS‚É‚àƒAƒNƒZƒX‰Â‚É‚È‚éB
+ã“ã‚Œã«ã‚ˆã‚Šã€ç ”ç©¶å®¤NASã«ã‚‚ã‚¢ã‚¯ã‚»ã‚¹å¯ã«ãªã‚‹ã€‚
 
