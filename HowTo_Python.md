@@ -8,6 +8,8 @@
 まずは、pyenvをインストール。  
 http://qiita.com/hiroseabook/items/e883e562fb7fddcfeec9  
 上記を参考にして実施。但し、exec $SHELLはうまくいかなかったため、sourceコマンドを使って直接設定ファイルを読んだ。
+  ```source ~/.bash_profile```
+
 
 pyenvインストールの動作確認は下記のコマンドが良い  
   ```pyenv install --list```
