@@ -1,0 +1,46 @@
+[IEEE ComSoc conferences]
+
+  IEEE Globecom
+    - 9-13 December, 2019 at Waikoloa, HI, USA
+
+  IEEE ICC
+    - 20-24 May, 2019 at Shanghai, China
+
+  IEEE Infocom
+    - 29 April-2 May, 2019 at Paris, France
+
+  IEEE Conference on Communications and Network Security (CNS)
+    - 10-12 June, 2019 at Washington, D.C., USA
+
+
+[IEEE CS conferences]
+
+  IEEE S&P
+    - 19-23 May, 2019 at San Francisco, USA
+
+  IEEE/ACM International Conference on Automated Software Engineering (ASE)
+    - 11-15 Nov, 2019 at San Diego, CA, USA
+
+[Other IEEE conferences]
+
+[ACM conferences]
+
+   ACMCCS
+    - 11-15 Nov, 2019 at London, England
+
+[Usenix conferences]
+
+
+[IFIP conferences]
+
+
+[Other conferences]
+
+  NDSS
+  ESORICS
+  RAID
+  ACSAC
+  The International Conference on Dependable Systems and Networks (DSN)
+  ASIACCS
+
+

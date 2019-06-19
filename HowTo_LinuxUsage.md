@@ -30,6 +30,12 @@ Guest Additionがうまく動作していない場合、下記を実施してみ
 cd /opt/VBoxGuestAdditions-*/init  
 sudo ./vboxadd setup
 
+但し、上記の/optにVBoxGuestAdditions-*が存在しない場合、対応するisoファイルをダウンロードする必要有。
+
+wget http://download.virtualbox.org/virtualbox/5.0.20/VBoxGuestAdditions_5.0.20.iso
+
+上記のダウンロードするisoファイルは、http://download.virtualbox.org/virtualbox/を見て適宜、正しいものに修正する。
+
 
 yumの設定
 ホスト側のウィルス対策ソフトの設定が必要な場合もある
@@ -39,6 +45,11 @@ symantec endpoint protectionでは、「ネットワーク脅威防止」の項�
 また、yum installやyum update実行前に、yum clean allをすると、うまくいくことがある。
 必要に応じて、リポジトリを追加して利用する
 yum -y install epel-release
+
+yumが壊れたとき
+重複したパッケージを削除するなどを下記のリンクを利用して実施
+https://qiita.com/masayuki14/items/d5b190bf90e5cb799880
+
 
 iptablesの設定
 　　"getenforce"で現在のiptablesの稼働状況が分かり、"setenforce 0"でiptablesを止めることができる
