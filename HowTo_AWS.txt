@@ -1,0 +1,19 @@
+利用前の準備
+
+1. アカウントの作成
+2. IAMアカウントの作成
+3. AWSコマンドラインインターフェース(CLI)をインストール
+    インストールがうまくいけば、"aws --version"にて反応が返ってくる。
+
+
+
+4. AWS CLIの設定
+    aws configure
+
+    Regionの設定
+    https://qiita.com/neet244/items/98d408b65134e8ed3918
+    東京: ap-northeast-1
+    output format: text
+
+
+
