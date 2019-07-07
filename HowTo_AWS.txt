@@ -1,10 +1,17 @@
+-----------------
 利用前の準備
+-----------------
 
 1. アカウントの作成
 2. IAMアカウントの作成
-3. AWSコマンドラインインターフェース(CLI)をインストール
-    インストールがうまくいけば、"aws --version"にて反応が返ってくる。
 
+
+3. AWSコマンドラインインターフェース(CLI)をインストール
+   Windows: インストーラをダウンロードして実行
+            インストールがうまくいけば、"aws --version"にて反応が返ってくる。
+   Linux: pip install awscli
+
+https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/install-windows.html
 
 
 4. AWS CLIの設定
@@ -15,5 +22,55 @@
     東京: ap-northeast-1
     output format: text
 
+    尚、上記のconfigureに入力するcredential情報については、AWSのWebコンソールにログインして、csv形式で取得可能
+
+
+
+
+
+-----------------
+S3の使い方
+-----------------
+
+aws s3 ls
+
+aws s3 mb s3://warpdrive-local
+
+aws s3 ls s3://warpdrive.eval
+
+aws s3 rb s3://warpdrive-local
+
+
+-----------------
+EC2の使い方
+-----------------
+
+EC2インスタンスを作成、起動、gitbashなどのシェルを用いてログイン
+
+ssh -i {full path of your .pem file} ec2-user@{instance IP address}
+
+(固定IP 3.113.91.4を2019/7/3現在、確保中)
+
+
+詳細は下記リンクを参照。
+
+https://aws.amazon.com/jp/getting-started/tutorials/launch-a-virtual-machine/?trk=gs_card
+
+
+
+作成したEC2インスタンスに固定IPを付与するには、elastic IPというところでIPを確保し、それをEC2インスタンスにマッピングする。
+
+
+
+ファイル名が長すぎて削除できない場合には下記を実行
+
+$ find . -type f -print | xargs rm
+
+
+-----------------
+その他のAWSCLIの使い方
+-----------------
+
+aws sts get-caller-identity
 
 
